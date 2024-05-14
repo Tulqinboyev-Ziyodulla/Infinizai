@@ -1,0 +1,560 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1320px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 220px;
+    position: absolute;
+    margin-top: 20px;
+    background-color: transparent;
+}
+
+.navbar__img:hover {
+    cursor: pointer;
+}
+
+
+.navbar__collection {
+    display: flex;
+    gap: 60px;
+}
+
+.navbar__collection a {
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar__collection a:hover {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    color: #FAC422;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.left img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.left button {
+    width: 178px;
+    height: 62px;
+    font-size: 18px;
+    background-color: rgb(87, 184, 255);
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.left button:hover {
+    cursor: pointer;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.hero {
+    background: url(../assets/fon.svg) no-repeat center/cover;
+    width: 50%;
+    height: 1000px;
+    padding: 80px;
+}
+
+.hero__two {
+    background: url(../assets/fon1.svg);
+    width: 50%;
+    height: 1000px;
+    padding: 80px;
+}
+
+.hero__two img {
+    margin-top: 200px;
+}
+
+.hero__two img:hover {
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+}
+
+.hero__title {
+    margin-top: 200px;
+}
+
+.hero__title h2 {
+    color: #fff;
+    font-size: 72px;
+    line-height: 86px;
+    margin-top: 16px;
+    font-weight: 400;
+}
+
+.px {
+    color: #57B8FF;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.px:hover {
+    cursor: pointer;
+}
+
+.pi {
+    color: #999999;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 43px;
+}
+
+.hero__title button {
+    width: 200px;
+    height: 70px;
+    margin-top: 53px;
+    background-color: #59B9FF;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+}
+
+.hero__title button:hover {
+    cursor: pointer;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.second {
+    background-color: #FDD04A;
+    width: 100%;
+    height: 440px;
+}
+
+.desc__title {
+    text-align: center;
+}
+
+.desc__title h2 {
+    font-size: 48px;
+    line-height: 150px;
+    font-weight: 400;
+}
+
+.desc__title p {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #555555;
+    line-height: 26px;
+    max-width: 576px;
+    margin: auto;
+}
+
+
+.desc__title img {
+    width: 250px;
+    height: 12px;
+    margin-left: 100px;
+}
+
+.desc__photo {
+    display: flex;
+    gap: 35px;
+    margin-top: 44px;
+}
+
+.desc__photo img {
+    width: 193px;
+    height: 89px;
+}
+
+.desc__photo img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.fon {
+    background: url(../assets/fon3.svg) no-repeat center/cover;
+    width: 100%;
+    height: 1072px;
+}
+
+.box {
+    text-align: center;
+}
+
+.p__title {
+    color: #57B8FF;
+    font-size: 16px;
+    line-height: 150px;
+}
+
+.title__p {
+    color: #DFDFDFCC;
+    font-size: 20px;
+    max-width: 50%;
+    margin: auto;
+    margin-top: 40px;
+    line-height: 32px;
+}
+
+.box h2 {
+    font-size: 64px;
+    max-width: 50%;
+    color: #fff;
+    margin: auto;
+    font-weight: 400;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin-top: 63px;
+}
+
+.card {
+    background-color: #FFFFFF26;
+    width: 48%;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: skew(-10deg);
+    transition: .5s;
+}
+
+.card__icon {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    gap: 18px;
+}
+
+.card__icon h3 {
+    color: #fff;
+    font-size: 32px;
+    line-height: 42px;
+    margin-top: 35px;
+    font-weight: 400;
+}
+
+.card__icon img {
+    margin-top: 35px;
+}
+
+.card p {
+    max-width: 70%;
+    margin: auto;
+    color: #DFDFDFCC;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+.game {
+    background-color: #000000;
+    width: 100%;
+    height: 700px;
+}
+
+.one {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 74px;
+    margin-top: 20px;
+}
+
+.play__title {
+    margin-top: 124px;
+}
+
+.first {
+    color: #57B8FF;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.two {
+    color: #DFDFDFCC;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 38px;
+}
+
+.play {
+    display: flex;
+    gap: 95px;
+}
+
+.play__img {
+    margin-top: 80px;
+}
+
+.play__img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.play__title button {
+    font-size: 18px;
+    color: #fff;
+    background-color: #57B8FF;
+    width: 203px;
+    height: 70px;
+    margin-top: 54px;
+    border: none;
+}
+
+.play__title button:hover {
+    background-color: blue;
+    transform: skew(-5deg);
+    transition: .5s;
+    border-radius: 5px;
+}
+
+
+.foto__card {
+    background: url(../assets/1.svg) no-repeat center/cover;
+    width: 50%;
+    height: 732px;
+    font-size: 48px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.foto__card img {
+    margin-top: 272px;
+}
+
+.foto__cart {
+    background: url(../assets/2.svg) no-repeat center/cover;
+    width: 50%;
+    height: 732px;
+    font-size: 48px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.foto__cart img {
+    margin-top: 272px;
+}
+
+.foto__cards {
+    background: url(../assets/3.svg) no-repeat center/cover;
+    width: 50%;
+    height: 732px;
+    font-size: 48px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.foto__cards img {
+    margin-top: 272px;
+}
+
+.foto {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.image:hover {
+    cursor: pointer;
+    transform: rotate(30deg);
+    transition: .5s;
+}
+
+.images:hover {
+    cursor: pointer;
+}
+
+.seconds {
+    background-color: #000000;
+    width: 100%;
+    height: 1200px;
+}
+
+.collection p {
+    color: #57B8FF;
+    font-size: 16px;
+    line-height: 100px;
+}
+
+.collection h3 {
+    font-size: 64px;
+    color: #fff;
+}
+
+.titles {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titles button {
+    background-color: #57B8FF;
+    font-size: 17px;
+    color: #fff;
+    border: none;
+    width: 175px;
+    height: 70px;
+}
+
+.titles button:hover {
+    cursor: pointer;
+    background-color: blue;
+    border-radius: 5px;
+    transition: .5s;
+    transform: scale(1.1) skew(-10deg) rotate(10deg);
+}
+
+.wrapper {
+    display: flex;
+    margin-top: 64px;
+}
+
+.react img:hover {
+    cursor: pointer;
+}
+
+.react p {
+    color: #57B8FF;
+    font-size: 18px;
+    margin-top: 54px;
+}
+
+.react h4 {
+    color: #fff;
+    font-size: 36px;
+    line-height: 46px;
+    margin-top: 28px;
+}
+
+.key img {
+    margin-left: 3px;
+}
+
+.key img:hover {
+    cursor: pointer;
+
+}
+
+.keys {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+.three {
+    color: #57B8FF;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.four {
+    color: #fff;
+    font-size: 23px;
+    line-height: 34px;
+    max-width: 281px;
+    margin-top: 20px;
+}
+
+.footer {
+    background: url(../assets/img.svg) no-repeat center/cover;
+    width: 100%;
+    height: 700px;
+}
+
+.foot {
+    text-align: center;
+    padding: 150px;
+}
+
+.foot h2 {
+    max-width: 700px;
+    margin: auto;
+    color: #141820;
+    font-size: 72px;
+    font-weight: 400;
+}
+
+.foot__p {
+    color: #555555;
+    font-size: 17px;
+    margin-top: 50px;
+}
+
+.food {
+    color: #555555;
+    font-size: 18px;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+input {
+    outline: none;
+    background-color: #FFFFFF;
+    color: #555555;
+    font-size: 18px;
+    border-radius: 1px;
+    border: none;
+    width: 445px;
+    height: 70px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.btn {
+    margin-top: 45px;
+}
+
+.btn button {
+    background-color: #57B8FF;
+    color: #fff;
+    width: 221px;
+    height: 70px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.btn button:hover {
+    background-color: blue;
+    border-radius: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
